@@ -22,7 +22,7 @@ p {
   color: var(--grey);
 }
 p {
-  margin: 0.2em;
+  /* margin: 0.2em; */
 }
 
 ol,
@@ -88,7 +88,7 @@ strong {
 /**************************************************/
 
 #profile {
-  padding: 90px 30px 25px 30px;
+  padding: 30px 30px 25px 30px;
   border-bottom: 1px solid #ddd;
 }
 
@@ -97,7 +97,7 @@ strong {
 }
 
 #profile img {
-  max-width: 400px;
+  max-width: 300px;
   margin-right: 40px;
 }
 
@@ -141,4 +141,16 @@ strong {
 .research-proj-title {
   color: var(--blue1);
   font-weight: 400;
+}
+
+div.project {
+  margin: 1em 0;
+}
+
+div.project h3 {
+  margin: 0;
+}
+
+div.project .desc {
+  margin: 1em 0;
 }
